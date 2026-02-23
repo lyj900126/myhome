@@ -17,6 +17,10 @@ alias lla='ls -alh'
 #alias vim='sudo env HOME=$HOME vim'
 #alias nvim='sudo env HOME=$HOME nvim'
 
-neofetch
+#当前 Shell 是交互式（interactive）的，则执行 fastfetch
+if [[ $- == *i* ]]; then
+    fastfetch
+fi  
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
