@@ -51,14 +51,14 @@ static const char* wps[]                = { "wps", NULL, NULL };
 /* 固定到任务栏的程序要显示的名字或者图标 */
 static const Launcher launchers[] = {
     /* command       name to display */
-	{ st,                "" },
+	{ st,                "" },
 	{ pcmanfm,           "" },
 	{ edge,              "" },
 	{ trilium,           "" },
 	{ wechat,            "" },
 	{ rustdesk,          "" },
 	{ virtmanager,       "" },
-	{ wps,               "󰈭" },
+	{ wps,               "" },
 };
 
 static const Rule rules[] = {
