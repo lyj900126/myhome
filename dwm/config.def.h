@@ -41,7 +41,7 @@ static char lockfile[] = "/tmp/dwm.lock";
 /* 启动任务栏程序的参数设置(以 NULL 结束) */
 static const char* st[]                 = { "st", NULL, NULL };
 static const char* pcmanfm[]            = { "pcmanfm", NULL, NULL };
-static const char* edge[]               = { "microsoft-edge-stable", "https://homepage.nas.lxyun.top:19999", NULL };
+static const char* edge[]               = { "microsoft-edge-stable", "https://sun-panel.nas.lxyun.top:19999", NULL };
 static const char* trilium[]            = { "trilium-cn", NULL, NULL };
 static const char* wechat[]             = { "wechat-universal", NULL, NULL };
 static const char* rustdesk[]           = { "rustdesk", NULL, NULL };
@@ -118,7 +118,7 @@ static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34
 
 /* 设置指定代号，关联打开任务栏固定程序命令(部分) */
 static const char *Pcmanfm[]    = { "pcmanfm", NULL };
-static const char *Edge[]       = { "microsoft-edge-stable", "https://homepage.nas.lxyun.top:19999", NULL };
+static const char *Edge[]       = { "microsoft-edge-stable", "https://sun-pacel.nas.lxyun.top:19999", NULL };
 static const char *Trilium[]    = { "trilium-cn", NULL };
 static const char *Wechat[]     = { "wechat-universal", NULL };
 static const char *Rustdesk[]  = { "rustdesk", NULL };
